@@ -24,7 +24,7 @@ public class JsonLoad {
 		
 		//parsing cars.json
 		try {
-			FileReader fr = new FileReader("src\\main\\java\\cars\\cars.json");
+			FileReader fr = new FileReader("src/main/java/cars/cars.json");
 			JSONParser jp = new JSONParser();
 			
 			try {
